@@ -1,0 +1,37 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Meu Primeiro Projeto com Delphi'
+  ClientHeight = 385
+  ClientWidth = 753
+  Color = clBtnFace
+  CustomTitleBar.CaptionAlignment = taCenter
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlTopo: TPanel
+    Left = 0
+    Top = 0
+    Width = 753
+    Height = 41
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 296
+    ExplicitTop = 192
+    ExplicitWidth = 185
+    object lblNome: TLabel
+      Left = 1
+      Top = 1
+      Width = 40
+      Height = 39
+      Align = alLeft
+      Caption = 'Nome'
+      Layout = tlCenter
+    end
+  end
+end
